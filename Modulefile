@@ -1,0 +1,8 @@
+name    'zleslie-hostapd'
+version '0.0.1'
+source 'git://github.com/xaque208/puppet-hostapd.git'
+author 'zleslie'
+license 'Apache License Version 2.0'
+summary 'Puppet powered wireless network management'
+description 'A module to manage the hostap daemon for creating wireless networks on BSD and possibly others'
+project_page 'https://github.com/xaque208/puppet-hostapd'

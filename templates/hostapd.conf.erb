@@ -1,0 +1,10 @@
+interface=<%= interface %>
+debug=1
+ctrl_interface=/var/run/hostapd
+ctrl_interface_group=wheel
+ssid=<%= ssid %>
+wpa=1
+wpa_passphrase=<%= wpa['passphrase'] %>
+wpa_key_mgmt=<%= wpa['key_mgmt'] %>
+wpa_pairwise=<%= wpa['pairwise'] %>
+
